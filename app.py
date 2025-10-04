@@ -49,7 +49,7 @@ migrate = Migrate(app, db)
 
 ADMIN_LOGIN_WHITELIST: Dict[str, Union[tuple[str, str], tuple[str, None]]] = {
     # Central Admin (Can log in with this specific email only if admin_level is 'central')
-    "centraladmin@gov.com": ("central", "Central"), 
+    "central_admin@gmail.com.com": ("central", "Central"), 
     
     # State Admins (Can log in with this specific email only if admin_level is 'state' and state is the specified one)
     "delhiadmin@gmail.com": ("state", "Delhi"),
