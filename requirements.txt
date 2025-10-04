@@ -1,12 +1,25 @@
+# Flask and related extensions
 Flask==3.1.2
 flask-cors==6.0.1
 flask-sqlalchemy==3.1.1
-flask-bcrypt==1.0.1
 Flask-Migrate==4.0.4
+flask-bcrypt==1.0.1
 
+# WSGI server for production
 gunicorn==21.2.0
+
+# Data & ML libraries
 numpy==2.3.3
 pandas==2.3.3
 scikit-learn==1.7.2
 onnxruntime==1.23.0
+
+# Environment variables
 python-dotenv
+
+# Optional: ensure consistent versions for dependencies used by your app
+click==8.3.0
+itsdangerous==2.2.0
+jinja2==3.1.6
+markupsafe==3.0.3
+werkzeug==3.1.3
