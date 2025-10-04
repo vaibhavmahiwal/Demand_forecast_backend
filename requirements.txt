@@ -7,3 +7,4 @@ numpy==2.3.3
 pandas==2.3.3
 scikit-learn==1.7.2
 onnxruntime==1.23.0
+python-dotenv
